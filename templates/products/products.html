@@ -17,7 +17,7 @@
             {% for item in data %}
             <div class="slider-item">
                 <div class="img-div">
-                    <img src="{{item.image.url}}">
+                    <img src="{% static item.image.url %}">
                 </div>
             </div>
             {% endfor %}
@@ -30,7 +30,7 @@
     {% for item in data %}
     <div class="condenser-items">
         <div class="img">
-            <img src="{{item.image.url}}" alt="{{item.title}}" width="100%" height="100%">
+            <img src="{% static item.image.url %}" alt="{{item.title}}" width="100%" height="100%">
         </div>
         <div class="det">
             <div class="condenser-items-details">
