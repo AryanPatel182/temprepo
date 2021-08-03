@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'shreeramengineers'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d2e4958065f1467f81ab19a205c1ee97 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_81f9d8b03fa646589a9f711264895530 }}
