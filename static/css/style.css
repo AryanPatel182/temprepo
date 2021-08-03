@@ -348,8 +348,13 @@ form div h3{
     }
     
     .cbox .smbox{
-    margin: 35px 0px 40px 0px;
-}
+    margin: 35px 0px 40px 0px;    
+    }
+
+    .contact_container
+    {
+        width: 100%;
+    }
 }
 
     
